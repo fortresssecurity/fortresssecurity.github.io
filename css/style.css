@@ -238,6 +238,9 @@ section + section {
     gap: 20px;
     font-size: max(min(3.5vw, 46px), 25px);
     font-weight: 600;
+    align-self: stretch;
+    padding-top: 2vw;
+    padding-left: 1vw;
 }
 
 
