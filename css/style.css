@@ -255,10 +255,6 @@ small {
     font-size: max(calc(min(3.5vw, 46px) / 2), 20px);
 }
 
-small::before {
-    content: "*";
-}
-
 #vantagens {
     flex-direction: column;
     width: auto;
@@ -610,6 +606,55 @@ h4 {
     font-size: 1.5em;
     font-weight: bold;
     margin: 10px 0px;
+}
+
+.kits-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.kit-container {
+    display: flex;
+    flex-direction: column;
+    width: 246px;
+    height: 530px;
+    padding: 30px;
+    box-shadow: var(--shadow);
+    border-radius: 20px;
+    background-color: var(--cor4);
+    color: white;
+    align-items: center;
+}
+
+.kit-container img {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.preco-container {
+    margin-top: auto;
+    font-size: 38px;
+}
+
+.preco {
+    font-size: 35px;
+}
+
+.desconto {
+    color: rgb(141, 67, 67);
+    text-decoration: line-through;
+}
+
+.kit-container small {
+    margin-top: 5px;
+    font-size: 16px;
+    width: 100%;
 }
 
 @media (max-width: 1330px) {
