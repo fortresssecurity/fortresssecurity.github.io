@@ -81,6 +81,7 @@ body {
     padding-bottom: 50px;
     margin: auto;
     font-family: var(--default-font);
+    background-color: var(--branco);
 }
 
 p {
@@ -97,7 +98,7 @@ header {
     z-index: 1;
     height: 100px;
     align-items: center;
-    background-color: white;
+    background-color: var(--cor4);
     box-shadow: var(--shadow);
 }
 
@@ -116,7 +117,7 @@ section + section {
 }
 
 .logo-container img {
-    width: 60px;
+    width: 200px;
     height: fit-content;
     margin: 10px;
 }
@@ -150,12 +151,12 @@ section + section {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 1.1em;
 }
 
 .main-nav-menu .link:hover {
-    box-shadow: var(--shadow);
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 .fixed {
