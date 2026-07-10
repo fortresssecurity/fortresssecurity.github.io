@@ -31,11 +31,15 @@
     <!-- Event snippet -->
     <script>
         function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
             gtag('event', 'conversion', {
                 'send_to': 'AW-17293978860/FG5gCKzy0OcaEOzZtLZA',
                 'event_callback': callback
             });
-            window.open(url, '_blank');
             return false;
         }
     </script>
