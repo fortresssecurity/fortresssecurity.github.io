@@ -31,15 +31,11 @@
     <!-- Event snippet -->
     <script>
         function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof (url) != 'undefined') {
-                    window.location = url;
-                }
-            };
             gtag('event', 'conversion', {
                 'send_to': 'AW-17293978860/FG5gCKzy0OcaEOzZtLZA',
                 'event_callback': callback
             });
+            window.open(url, '_blank');
             return false;
         }
     </script>
@@ -66,7 +62,7 @@
             </nav>
             <h1>Proteja o que realmente importa</h1>
             <p class="lead">Soluções completas e personalizadas em segurança eletrônica.</p>
-            <a href="https://wa.me/553133708500" onclick="return gtag_report_conversion(this.href)" target="_blank" class="btn btn-dark btn-lg mt-3">Agende uma visita</a>
+            <a href="https://wa.me/553133708500" onclick="return gtag_report_conversion(this.href)" class="btn btn-dark btn-lg mt-3">Agende uma visita</a>
         </div>
     </header>
     <section id="servicos" class="py-5 bg-dark text-white">
@@ -117,7 +113,7 @@
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a href="https://wa.me/553133708500" onclick="return gtag_report_conversion(this.href)" target="_blank" class="btn btn-success btn-lg">Agende uma visita</a>
+                <a href="https://wa.me/553133708500" onclick="return gtag_report_conversion(this.href)" class="btn btn-success btn-lg">Agende uma visita</a>
             </div>
         </div>
     </section>
@@ -183,7 +179,7 @@
         <div class="container text-center">
             <h2>Entre em Contato</h2>
             <p class="lead">Agende uma visita com nosso especialista. Estamos prontos para oferecer a melhor solução em segurança eletrônica.</p>
-            <p><strong>Telefone e WhatsApp:</strong><a href="https://wa.me/553133708500" onclick="return gtag_report_conversion(this.href)" target="_blank" class="link-plain"> +55 31 3370-8500</a></p>
+            <p><strong>Telefone e WhatsApp:</strong><a href="https://wa.me/553133708500" onclick="return gtag_report_conversion(this.href)" class="link-plain"> +55 31 3370-8500</a></p>
             <p><strong>Email:</strong> fortressegurancaeletronica@gmail.com</p>
         </div>
     </section>
