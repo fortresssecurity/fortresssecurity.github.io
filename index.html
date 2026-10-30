@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-ML7BXFBX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fortress Security</title>
@@ -19,31 +25,6 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17293978860"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'AW-17293978860');
-    </script>
-    <!-- Event snippet -->
-    <script>
-        function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof (url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'conversion', {
-                'send_to': 'AW-17293978860/FG5gCKzy0OcaEOzZtLZA',
-                'event_callback': callback
-            });
-            return false;
-        }
-    </script>
-    
 </head>
 <body>
     <header class="bg-success text-white text-center py-5">
@@ -66,7 +47,7 @@
             </nav>
             <h1>Proteja o que realmente importa</h1>
             <p class="lead">Soluções completas e personalizadas em segurança eletrônica.</p>
-            <a href="https://wa.me/553133708500" onclick="return gtag_report_conversion(this.href)" class="btn btn-dark btn-lg mt-3">Agende uma visita</a>
+            <a href="https://wa.me/553133708500" class="btn btn-dark btn-lg mt-3">Agende uma visita</a>
         </div>
     </header>
     <section id="servicos" class="py-5 bg-dark text-white">
@@ -117,7 +98,7 @@
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a href="https://wa.me/553133708500" onclick="return gtag_report_conversion(this.href)" class="btn btn-success btn-lg">Agende uma visita</a>
+                <a href="https://wa.me/553133708500" class="btn btn-success btn-lg">Agende uma visita</a>
             </div>
         </div>
     </section>
@@ -183,7 +164,7 @@
         <div class="container text-center">
             <h2>Entre em Contato</h2>
             <p class="lead">Agende uma visita com nosso especialista. Estamos prontos para oferecer a melhor solução em segurança eletrônica.</p>
-            <p><strong>Telefone e WhatsApp:</strong><a href="https://wa.me/553133708500" onclick="return gtag_report_conversion(this.href)" class="link-plain"> +55 31 3370-8500</a></p>
+            <p><strong>Telefone e WhatsApp:</strong><a href="https://wa.me/553133708500" class="link-plain"> +55 31 3370-8500</a></p>
             <p><strong>Email:</strong> fortressegurancaeletronica@gmail.com</p>
         </div>
     </section>
